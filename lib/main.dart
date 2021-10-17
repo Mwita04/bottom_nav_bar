@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter App',
+      title: 'Kwetu Labs',
       home: MyHomePage(),
     );
   }
@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text(
-          "Flutter App",
+          "Kwetu Labs",
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -53,12 +53,12 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: CurvedNavigationBar(
         color: Colors.white,
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.lightBlueAccent,
         buttonBackgroundColor: Colors.white,
         height: 50,
         items: <Widget>[
           Icon(Icons.verified_user, size: 20, color: Colors.black),
-          Icon(Icons.add, size: 20, color: Colors.black),
+          //Icon(Icons.add, size: 20, color: Colors.black),
           Icon(Icons.list, size: 20, color: Colors.black),
           Icon(Icons.book_online, size: 20, color: Colors.black),
           Icon(Icons.settings, size: 20, color: Colors.black),
